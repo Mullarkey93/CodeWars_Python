@@ -12,5 +12,6 @@ def getCount(inputStr):
         if c in vowels: num_vowels += 1
     return num_vowels
 
+
 def getCount2(inputStr):
     return sum(1 for let in inputStr if let in "aeiouAEIOU")
