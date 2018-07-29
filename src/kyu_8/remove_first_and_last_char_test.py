@@ -10,5 +10,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(remove_char('place'), 'lac')
         self.assertEqual(remove_char('ok'), '')
 
+
 if __name__ == '__main__':
     unittest.main()

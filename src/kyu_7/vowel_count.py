@@ -5,7 +5,7 @@
 # The input string will only consist of lower case letters and/or spaces.
 # import unittest
 
-def getCount(inputStr):
+def get_count(inputStr):
     num_vowels = 0
     vowels = ['a', 'e', 'i', 'o', 'u']
     for c in list(inputStr):
@@ -13,5 +13,5 @@ def getCount(inputStr):
     return num_vowels
 
 
-def getCount2(inputStr):
+def get_count2(inputStr):
     return sum(1 for let in inputStr if let in "aeiouAEIOU")
