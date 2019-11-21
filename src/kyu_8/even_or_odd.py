@@ -7,6 +7,6 @@ def even_or_odd(number):
     else:
         return "Odd"
 
-    
+
 def even_or_odd_one_liner(number):
     return 'Odd' if number % 2 else 'Even'
